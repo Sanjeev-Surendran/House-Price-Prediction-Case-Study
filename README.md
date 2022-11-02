@@ -46,28 +46,28 @@ Any business analytics problem can be solved using **CR**oss **I**ndustry **S**t
 #### Recommendation
 
 ##### R2 Score and Optimal Alpha of Ridge Regression
-* Train R^2 : **0.947**
-* Test R^2 : **0.891**
-* Alpha : **0.8**
+* Train R^2 : **0.8825**
+* Test R^2 : **0.8826**
+* Alpha : **50**
 
 ##### Top 5 predictor variables of Ridge Regression
-* GrLivArea (log scale)
-* 1stFlrSF (log scale)
-* OverallQual
-* LotArea (log scale)
-* RoofMatl_WdShngl 
+* OverallQual    
+* GrLivArea      
+* Condition1_Norm
+* FireplaceQu    
+* GarageCars     
 
 ##### R2 Score and Optimal Alpha of Lasso
-* Train R^2 : **0.937**
-* Test R^2 : **0.893**
+* Train R^2 : **0.8824**
+* Test R^2 : **0.8821**
 * Alpha : **0.001**
 
 ##### Top 5 predictor variables of Lasso
-* GrLivArea (log scale)
-* OverallQual
-* LotArea (log scale)
-* OverallCond
-* 1stFlrSF (log scale)
+* OverallQual      
+* GrLivArea        
+* Condition1_Norm  
+* GarageCars       
+* HouseStyle_1Story
 
 
 ### Software and Library Versions
